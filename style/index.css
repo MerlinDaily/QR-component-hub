@@ -10,8 +10,8 @@ body {
 
 .container {
   margin: 10em;
-  width: 320px;
-  height: 497px;
+  width: 300px;
+  height: 490px;
   background-color: hsl(0, 0%, 100%);
   display: flex;
   flex-wrap: wrap;
@@ -22,26 +22,32 @@ body {
 }
 .container__img {
   display: flex;
-  width: 24em;
   border-radius: 10px;
-  margin: 0.7em 5px 0;
-  padding-bottom: 1px;
+  width: 90%;
+  height: auto;
+  margin: 15px 15px 0 15px;
 }
 .container__text {
-  margin: 0 2.5em 2em;
+  margin: 15px 15px 30px 15px;
+  width: 90%;
 }
 .container__text--title {
   font-weight: 700;
   font-size: 20px;
   font-family: "Outfit";
-  padding-top: 0;
   color: hsl(218, 44%, 22%);
+  text-align: center;
+  margin: 10px 0 3px 0;
+  height: 3em;
+  line-height: 1.2em;
 }
 .container__text--description {
+  font-weight: 400;
   font-size: 15px;
   font-family: "Outfit";
-  font-weight: 400;
-  margin: 0;
-  padding-top: 0;
+  text-align: center;
   color: hsl(220, 15%, 55%);
+  margin-top: 0;
+  padding: 0 0.7em;
+  line-height: 1.2em;
 }/*# sourceMappingURL=index.css.map */
