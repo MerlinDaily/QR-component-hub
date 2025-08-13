@@ -1,18 +1,16 @@
 body {
   background-color: hsl(212, 45%, 89%);
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   padding: auto auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 15px;
 }
 
 .container {
-  margin: 10em;
-  width: 300px;
-  height: 490px;
   background-color: hsl(0, 0%, 100%);
   width: 50%;
   height: 62%;
@@ -27,30 +25,26 @@ body {
 }
 .container__img {
   display: flex;
-  border-radius: 10px;
-  width: 90%;
-  height: auto;
-  margin: 15px 15px 0 15px;
+  width: 99%;
+  height: 220px;
+  border-radius: inherit;
 }
 .container__text {
-  margin: 15px 15px 30px 15px;
-  width: 90%;
+  margin: 0.5em 1em;
+  text-align: center;
+  padding: 0;
 }
 .container__text--title {
   font-weight: 700;
   font-size: 20px;
   font-family: "Outfit";
   color: hsl(218, 44%, 22%);
-  text-align: center;
-  margin: 10px 0 3px 0;
-  height: 3em;
-  line-height: 1.2em;
 }
 .container__text--description {
   font-weight: 400;
   font-size: 15px;
   font-family: "Outfit";
-  text-align: center;
+  padding-top: 0;
   color: hsl(220, 15%, 55%);
 }
 
