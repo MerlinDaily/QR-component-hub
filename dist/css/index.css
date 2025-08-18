@@ -57,20 +57,4 @@ body {
   .container {
     width: 322.5px;
   }
-}
-/* media query stolen from bootstrap!
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px or 640px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px or 1024px) { ... }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px or 1280px) { ... }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px or 1536px) { ... }
-*//*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
