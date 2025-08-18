@@ -9,12 +9,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
   background-color: hsl(212, 45%, 89%);
-  width: 100%;
-  height: 100%;
-  margin: 4rem auto;
   font-size: 15px;
-  font-family: "Outfit";
+  font-family: Outfit;
 }
 
 .container {
@@ -22,14 +21,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80vw;
-  min-width: 300px;
-  height: 70%;
   flex-wrap: wrap;
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 14px;
+  min-width: 322px;
+  width: 86%;
+  margin: 0 auto;
+  padding: 1rem 1rem 2.5rem;
+  border-radius: 1em;
   text-align: center;
-  padding: 0.87em;
+  background-color: hsl(0, 0%, 100%);
 }
 .container__img {
   display: flex;
@@ -38,10 +37,9 @@ body {
   border-radius: inherit;
 }
 .container__text {
-  width: 98%;
-  margin: 0.5rem 0;
+  width: 95%;
+  margin: 0.5rem 0 0 0;
   text-align: center;
-  padding: 0;
 }
 .container__text .title {
   font-weight: 700;
@@ -52,27 +50,11 @@ body {
   font-weight: 400;
   font-size: 15px;
   color: hsl(220, 15%, 55%);
-  padding: 6px 8px;
+  margin-top: 1rem;
 }
 
-@media (min-width: 374px) and (max-width: 1440px) {
+@media (min-width: 380px) {
   .container {
-    width: 300px;
+    width: 322.5px;
   }
-}
-/* media query stolen from bootstrap!
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px or 640px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px or 1024px) { ... }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px or 1280px) { ... }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px or 1536px) { ... }
-*//*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
