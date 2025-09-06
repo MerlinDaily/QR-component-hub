@@ -12,8 +12,8 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: hsl(212, 45%, 89%);
-  font-size: 15px;
-  font-family: Outfit;
+  font-size: 0.9375rem;
+  font-family: Outfit, Verdana, Tahoma, sans-serif;
 }
 
 .container {
@@ -43,18 +43,17 @@ body {
 }
 .container__text .title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: hsl(218, 44%, 22%);
 }
 .container__text .description {
   font-weight: 400;
-  font-size: 15px;
   color: hsl(220, 15%, 55%);
   margin-top: 1rem;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 23.75rem) {
   .container {
-    width: 322.5px;
+    width: 20.1563rem;
   }
 }/*# sourceMappingURL=index.css.map */
