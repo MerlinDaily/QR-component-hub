@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	// font-size: 10px;
 }
 
 @mixin flexCenter($direction) {
@@ -17,8 +18,8 @@ body {
 	height: 100vh;
 	// padding-top: 6rem;
 	background-color: hsl(212, 45%, 89%);
-	font-size: 15px;
-	font-family: Outfit; //"Outfit"
+	font-size: 0.9375rem;
+	font-family: Outfit, Verdana, Tahoma, sans-serif; //"Outfit"
 }
 
 .container {
@@ -51,14 +52,13 @@ body {
 
 		.title {
 			font-weight: 700;
-			font-size: 20px;
+			font-size: 1.25rem;
 			color: hsl(218, 44%, 22%);
 			// border: 1px solid;
 		}
 
 		.description {
 			font-weight: 400;
-			font-size: 15px;
 			color: hsl(220, 15%, 55%);
 			margin-top: 1rem;
 
@@ -67,8 +67,9 @@ body {
 	}
 }
 
-@media (min-width: 380px) {
+//breakpoint width: 380px,
+@media (min-width: 23.75rem) {
 	.container {
-		width: 322.5px;
+		width: 20.1563rem;
 	}
 }
